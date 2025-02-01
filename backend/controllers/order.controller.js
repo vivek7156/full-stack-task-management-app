@@ -4,7 +4,7 @@ import Order from "../models/order.model.js";
 export const getUsersOrders = async (req, res) => {
     try {
         const userId = req.user._id;
-        const orders = await Order.find({ userId }).populate('items.menuItemId');
+        const orders = await Order.find({ userId }).populate('items.menuItemId').sort({ createdAt: -1 });
         res.status(200).json(orders);
     } catch (error) {
         res.status(500).json({ message: 'Server error' });

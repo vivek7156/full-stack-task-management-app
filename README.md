@@ -1,6 +1,8 @@
 # YumRush
 
 YumRush is a food delivery application that allows users to browse a menu, place orders, and manage their cart. The application consists of a front-end built with React and a back-end built with Express and MongoDB.
+frontend - https://silly-empanada-e80bc6.netlify.app/
+backend - https://full-stack-task-management-app-zbcx.onrender.com/
 
 ## Project Description
 
@@ -10,7 +12,7 @@ YumRush is designed to provide a seamless food ordering experience. Users can br
 
 - User registration and login
 - Browse menu items
-- Add items to cart
+- Add items to the cart
 - Place orders
 - View order history
 - Responsive design

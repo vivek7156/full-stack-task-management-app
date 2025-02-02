@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
-  const url = "http://localhost:5000";
+  const url = "https://full-stack-task-management-app-zbcx.onrender.com";
   const [token, setToken] = useState(localStorage.getItem("jwt") || "");
   const [username, setUsername] = useState(localStorage.getItem("username") || "");
   const [menuItems, setMenuItems] = useState([]);
